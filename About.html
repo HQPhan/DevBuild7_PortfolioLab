@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>        
+        <style>
+            .button {
+                display: inline-flex;
+                height: 50px;
+                padding: 0;
+                background: #FF9733;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                overflow: hidden;
+                font-family:'Franklin Gothic Medium', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            .button:hover{
+                background: #F57F0C;
+            }
+
+            .button:active{
+                background: #D8700B;
+            }
+
+            .button__text,
+            .button__icon{
+                display: inline-flex;
+                align-items: center;
+                padding: 0 24px;
+                color: #fff;
+                height: 100%;               
+            }
+
+            .button__icon {
+                font-size: 1.5em;
+                background-color: rgba(0,0,0,0.08);
+            }
+        </style>
+    </head>
+
+    <style>A {text-decoration: none;} </style>
+    <body>
+
+        <h2>About Me: </h2>
+
+        <p>I was born in Vietnam, and came to The United States at age 5. I grew up in Lansing. </p>
+        <p>I attended Lansing Community College, Siena Heights University, and Kettering University</p>       
+        <p>I joined the Air Force for a short period of time.</p>
+        <p>I started working for the FOC since November 2019.</p>
+
+        <h2>Contact Information: </h2>
+        <ol>
+            <li>huyphan@RocketMortgage.com </li>
+            <li>c: (517)802-0088</li>
+            <li>This is my <a href="https://foc.justsift.com/profile/tT46wphnap">Sift Profile</a></li>                                               
+        </ol>        
+
+        <a href="Index.html">
+            <button type="button" class="button"> 
+                <span class="button__text">Home</span>
+                <span class="button__icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                </span>
+            </button>
+        </a>
+
+        <a href="Portfolio.html">
+            <button type="button" class="button"> 
+                <span class="button__text">Portfolio</span>
+                <span class="button__icon">
+                    <ion-icon name="bag-handle-outline"></ion-icon>
+                </span>
+            </button>
+        </a>
+
+        <a href="About.html">
+            <button type="button" class="button"> 
+                <span class="button__text">About</span>
+                <span class="button__icon">
+                    <ion-icon name="accessibility-outline"></ion-icon>
+                </span>
+            </button>
+        </a>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    
+
+</html>

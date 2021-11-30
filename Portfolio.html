@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>        
+        <style>
+            .button {
+                display: inline-flex;
+                height: 50px;
+                padding: 0;
+                background: #FF9733;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                overflow: hidden;
+                font-family:'Franklin Gothic Medium', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            .button:hover{
+                background: #F57F0C;
+            }
+
+            .button:active{
+                background: #D8700B;
+            }
+
+            .button__text,
+            .button__icon{
+                display: inline-flex;
+                align-items: center;
+                padding: 0 24px;
+                color: #fff;
+                height: 100%;               
+            }
+
+            .button__icon {
+                font-size: 1.5em;
+                background-color: rgba(0,0,0,0.08);
+            }
+        </style>
+    </head>
+
+    <style>A {text-decoration: none;} </style>
+    <body>
+        <h2>PORTFOLIO: </h2>
+        <p>This is the <a href="https://github.com/HQPhan/DevBuild7_UsedCarLab.git">Used Car Lot Lab</a> that I worked for the first part of the class.</p>
+                        
+
+        <a href="Index.html">
+            <button type="button" class="button"> 
+                <span class="button__text">Home</span>
+                <span class="button__icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                </span>
+            </button>
+        </a>
+
+        <a href="Portfolio.html">
+            <button type="button" class="button"> 
+                <span class="button__text">Portfolio</span>
+                <span class="button__icon">
+                    <ion-icon name="bag-handle-outline"></ion-icon>
+                </span>
+            </button>
+        </a>
+
+        <a href="About.html">
+            <button type="button" class="button"> 
+                <span class="button__text">About</span>
+                <span class="button__icon">
+                    <ion-icon name="accessibility-outline"></ion-icon>
+                </span>
+            </button>
+        </a>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    
+
+</html>
